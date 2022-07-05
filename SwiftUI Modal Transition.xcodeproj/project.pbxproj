@@ -11,6 +11,8 @@
 		7BA9AC7E2874362300288F9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA9AC7D2874362300288F9F /* ContentView.swift */; };
 		7BA9AC802874362500288F9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BA9AC7F2874362500288F9F /* Assets.xcassets */; };
 		7BA9AC832874362500288F9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BA9AC822874362500288F9F /* Preview Assets.xcassets */; };
+		7BA9AC8B2874364800288F9F /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA9AC892874364800288F9F /* SwiftUIView.swift */; };
+		7BA9AC8C2874364800288F9F /* ViewControllerHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA9AC8A2874364800288F9F /* ViewControllerHolder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		7BA9AC7D2874362300288F9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7BA9AC7F2874362500288F9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BA9AC822874362500288F9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7BA9AC892874364800288F9F /* SwiftUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		7BA9AC8A2874364800288F9F /* ViewControllerHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerHolder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				7BA9AC7B2874362300288F9F /* SwiftUI_Modal_TransitionApp.swift */,
 				7BA9AC7D2874362300288F9F /* ContentView.swift */,
+				7BA9AC892874364800288F9F /* SwiftUIView.swift */,
+				7BA9AC8A2874364800288F9F /* ViewControllerHolder.swift */,
 				7BA9AC7F2874362500288F9F /* Assets.xcassets */,
 				7BA9AC812874362500288F9F /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				7BA9AC7E2874362300288F9F /* ContentView.swift in Sources */,
 				7BA9AC7C2874362300288F9F /* SwiftUI_Modal_TransitionApp.swift in Sources */,
+				7BA9AC8C2874364800288F9F /* ViewControllerHolder.swift in Sources */,
+				7BA9AC8B2874364800288F9F /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

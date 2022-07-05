@@ -8,14 +8,26 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
+	
+	@Environment(\.viewController) private var viewControllerHolder: UIViewController?
+	
+	private var viewController: UIViewController? {
+		self.viewControllerHolder
+	}
+	
+	var body: some View {
+		Button("Show Modal", action: {
+			self.viewController?.present(style: .fullScreen, transitionStyle: .flipHorizontal) {
+				SwiftUIView()
+			}
+		})
+		.padding()
+	}
 }
 
 struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+	static var previews: some View {
+		ContentView()
+	}
 }
+
