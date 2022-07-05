@@ -1,2 +1,2 @@
 # SwiftUI-Modal-Transition
-Modal transition and presention in SwiftUI.
+Example of modal transition and presentation in SwiftUI
